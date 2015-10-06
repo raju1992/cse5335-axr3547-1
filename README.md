@@ -19,34 +19,34 @@ Reason- It has a wide range of Gems and flexibility to create web applications a
  
 ### What components other than server side and client framework did you install and why ?
  
- 1) Git in my local machine to add and commit and push it to the github cloud repository.
- 2) Third party gems such as "bootstrap-sass" - for UI decoration stuff, "gmaps4rails" for google maps in View , "geocoder" for geolocation coordinated, "pg" for postgres database in Heroku.
- 3) Heroku- for pushing and deploying our web application on cloud.
+ 1) Git in my local machine to add and commit and push it to the github cloud repository.<br>
+ 2) Third party gems such as "bootstrap-sass" - for UI decoration stuff, "gmaps4rails" for google maps in View , "geocoder" for geolocation coordinated, "pg" for postgres database in Heroku.<br>
+ 3) Heroku- for pushing and deploying our web application on cloud.<br>
  
 ### What Ubuntu commands are needed to deploy and run server.? 
 
- rails new <project name>  -to start a new rails project.
- rails generate controller <controller name> <controller Actions> - to create a controller with actions.
- bundle install - to install the gems in the development
- bundle update - to update the gems version
- rails generate model <model name> <colums value with their field type> - to create a model
- rake task <task name> -to create job at rails 
- rake db:migrate - sync db with rails
- rake db:seed - sync the db data
- rails s - to start the server at local host.
+ rails new <project name>  -to start a new rails project.<br>
+ rails generate controller <controller name> <controller Actions> - to create a controller with actions.<br>
+ bundle install - to install the gems in the development<br>
+ bundle update - to update the gems version<br>
+ rails generate model <model name> <colums value with their field type> - to create a model. <br>
+ rake task <task name> -to create job at rails. <br>
+ rake db:migrate - sync db with rails. <br>
+ rake db:seed - sync the db data. <br>
+ rails s - to start the server at local host. <br>
  
- git init
- git remote add <github repo >
- git add . - to add the files at git locally
- git commit -m "message" save files at initial stage.
- git push origin master - to push files on github repo.
+ git init <br>
+ git remote add <github repo ><br>
+ git add . - to add the files at git locally. <br>
+ git commit -m "message" save files at initial stage.<br>
+ git push origin master - to push files on github repo.<br>
  
- heroku create - to create heroku repo.
- heroku login - to login
- heroku git:remote -a <repo name> to add to heroku repo
- git push heroku master - to push to heroku server
- heroku run db:migrate - to migrate to production db.
- heroku open - to open the website at heroku
+ heroku create - to create heroku repo.<br>
+ heroku login - to login<br>
+ heroku git:remote -a <repo name> to add to heroku repo<br>
+ git push heroku master - to push to heroku server<br>
+ heroku run db:migrate - to migrate to production db.<br>
+ heroku open - to open the website at heroku<br>
  
  
  
